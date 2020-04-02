@@ -13,8 +13,6 @@ yarn
 yarn start
 ```
 
-Rotas disponíveis:
-
 ### EN-US
 
 To execute this code, just type the following commands at the terminal:
@@ -30,12 +28,9 @@ yarn start
 
 As rotas disponíveis para uso são:
 
-- GET: /products
-  -- Lista todos os produtos disponíveis
-- GET: /products/:id
-  -- Lista o produto do id especificado
-- POST: /products
-  -- Cria e retorna o produto com id automático e com as informações do corpo abaixo:
+- GET: /products - Lista todos os produtos disponíveis
+- GET: /products/:id - Lista o produto do id especificado
+- POST: /products - Cria e retorna o produto com id automático e com as informações do corpo abaixo:
 
 ```
 {
@@ -48,12 +43,9 @@ As rotas disponíveis para uso são:
 
 The available routes for use are:
 
-- GET: /products
-  -- List all available products
-- GET: /products/:id
-  -- List a product with the id provided
-- POST: /products
-  -- Creates and returns a product with automatic id and with the body information below:
+- GET: /products - List all available products
+- GET: /products/:id - List a product with the id provided
+- POST: /products - Creates and returns a product with automatic id and with the body information below:
 
 ```
 {
